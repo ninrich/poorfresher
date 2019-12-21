@@ -1,10 +1,10 @@
 {
 	"name": "Poorfresher",
-	"version": "6.9",
+	"version": "6.90",
 	"description": "Zistiš, či je daný článok zamknutý.",
 	"content_scripts": [{
     "js": ["megasuperhack420.js"],
-    "matches": ["https://refresher.sk/*"]
+    "matches": ["https://refresher.sk/*", "https://refresher.cz/*"]
 		}],
 	"icons": {
 		"16": "icons/16.png",
